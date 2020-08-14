@@ -1,0 +1,21 @@
+{
+  "name": "gatsby-plugin-autopilot",
+  "version": "1.0.0",
+  "description": "A plugin to add Autopilot tracking code to your Gatsby site.",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "autopilot",
+    "tracking",
+    "marketing"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Bohannon",
+  "license": "MIT",
+  "dependencies": {
+    "react": "16.13.1"
+  }
+}
