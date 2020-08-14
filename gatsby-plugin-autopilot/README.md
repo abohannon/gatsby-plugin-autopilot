@@ -12,14 +12,13 @@ yarn add gatsby-plugin-autopilot
 
 ```js
 // In your gatsby-config.js
-
 {
-      resolve: `gatsby-plugin-autopilot`, // gatsby-plugin-autopilot
+      resolve: `gatsby-plugin-autopilot`,
       options: {
         apiUrl: "", // Your unique api URL, found in your tracking code settings in your Autopilot dashboard.
         trackingId: "", // Your unique tracking ID, also found in your tracking code settings.
-        app: true, // true/false
-        exclude: [], // an array of url paths to exclude from using the Autopilot script. e.g. ['/signup', '/about']
+        app: true, // Determines whether to load webpage or app tracking code.
+        exclude: ['/signup', '/about'], // optional
       },
     },
 ```
