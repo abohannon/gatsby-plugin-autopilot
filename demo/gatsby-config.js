@@ -30,8 +30,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-autopilot`, // gatsby-plugin-autopilot
       options: {
-        trackingId: null, // Add your Autopilot tracking ID here
+        apiUrl: "",
+        trackingId: "",
         app: true,
+        exclude: [],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
