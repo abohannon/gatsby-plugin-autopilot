@@ -22,3 +22,5 @@ yarn add gatsby-plugin-autopilot
       },
     },
 ```
+
+![Location of API URL and Trackin ID in Autopilot tracking code](autopilot-tracking-code-example.png)
